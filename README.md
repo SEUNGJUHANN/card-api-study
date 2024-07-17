@@ -20,3 +20,17 @@ window.addEventListener("load", function () {
     });
 });
 ```
+
+## 1.2 두줄 이상 말줄임
+
+```css
+선택자 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; /* 3줄까지 */
+  line-height: 1.5;
+  max-height: calc(1.5em * 3);
+}
+```

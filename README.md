@@ -21,7 +21,7 @@ window.addEventListener("load", function () {
 });
 ```
 
-## 1.2 두줄 이상 말줄임
+## 1.2 두줄 이상 말줄임.
 
 ```css
 선택자 {
